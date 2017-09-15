@@ -11,6 +11,14 @@ app_color = "grey"
 app_email = "sam@gmail.com"
 app_license = "MIT"
 
+
+doc_events = {
+
+	"Customer": {
+		"validate": "meeting.custom_py_methods.validate_customer",
+	},
+	
+}
 # Includes in <head>
 # ------------------
 

@@ -1,0 +1,10 @@
+<h1> hello</h1>
+<h2> From Date: {%=  filters.from_date  %}
+</h2>
+
+
+		{% for(var i=0, l=data.length; i<l; i++) { %}
+
+		{%= data[i][__("Name")] %} - {%= data[i][__("Date")] %}<br>
+
+		{% } %}
